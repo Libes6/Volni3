@@ -695,10 +695,10 @@ background-size: cover;
     background-position-y: -61px;
     position: relative;
     @media (max-width: 1527px) {
-        padding: 43px 0 400px 0;
+        padding: 43px 0 40px 0;
     }
     @media (max-width: 900px) {
-        padding: 43px 0 400px 0;
+        padding: 43px 0 40px 0;
     }
 }
 .advantages__row{
@@ -714,13 +714,13 @@ background-size: cover;
     @media (max-width: 1527px) {
         align-items: center;
         flex-direction: column;
-        padding-bottom: 400px;
+        padding-bottom: 200px;
     }
     @media (max-width: 722px) {
         margin: 0 -20px;
     }
     @media (max-width: 560px) {
-        padding-bottom: 800px;
+        padding-bottom: 700px;
     }
 }
 
@@ -813,9 +813,11 @@ background-size: cover;
         height: auto;
         flex-direction: column;
         flex-wrap: nowrap;
+        margin-bottom: 100px;
     }
     @media (max-width: 768px) {
         padding: 0 20px;
+        margin-bottom: 250px;
         margin-top: -250px;
     }
  }
