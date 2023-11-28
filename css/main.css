@@ -436,7 +436,8 @@ width: 727px;
 height: 926px;
 display: block;
 position: relative;
-overflow: hidden;
+/*overflow: hidden;*/
+/*    overflow-y: hidden;*/
 @media (max-width:768px) {
     width: 437px;
     height: 557px;
@@ -449,7 +450,10 @@ overflow: hidden;
     margin: 0 auto;
 }
     @media (max-width:374px) {
-        transform: translate(-10%,-10%);
+        width: 374px;
+        overflow-y: hidden;
+        overflow-x: auto;
+        transform: translate(-15%,-10%);
     }
 }
 .hero__row::before{
