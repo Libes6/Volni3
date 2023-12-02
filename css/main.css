@@ -476,14 +476,17 @@ top: 0;
 }
 .hero__person-img{
     position: absolute;
-    /* top: -20px; */
+
     @media (max-width:768px) {
-        top: 122px;
+        top: 60px;
         width: 437px;
         height: 557px;
     }
     @media (max-width:375px) {
         transform: translate(-5%,0);
+    }
+    @media (max-width:350px) {
+        transform: translate(-9%,0);
     }
 }
 .hero__person::before{
