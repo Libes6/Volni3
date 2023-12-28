@@ -492,7 +492,6 @@ position: relative;
     }
 }
 .hero__row::before{
- /* content:  url('./../img/icon/flesh.png'); */
 position: absolute;
 top: 0;
  width: 100%;
@@ -741,7 +740,6 @@ background-size: cover;
 
 .advantages{
     background: #080808;
-    /* background-image: url("/img/picture/advantages-bg.svg"); */
     padding: 43px 0 0px 0;
 
     background-size: inherit;
